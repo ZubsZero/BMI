@@ -91,6 +91,8 @@ span {
     *{
         background-color: black;
         font-weight: normal;
+        padding: 1;
+        margin:1;
     }
     
 }
