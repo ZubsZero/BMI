@@ -30,6 +30,9 @@ button.addEventListener('click', () => {
         }else{
             result.innerHTML = 'Over weight : ' + bmi;
         }
+        if( bmi >= 24.9 && bmi < 40  ){
+            result.innerHTML = 'Obese : ' + bmi 
+        }
     }else{
         alert('The form has errors');
         result.innerHTML = '';
