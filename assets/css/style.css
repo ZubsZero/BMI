@@ -9,7 +9,7 @@
 *{
     background-color: rgb(148, 7, 7)  ;
     font-family: 'Barlow', sans-serif;
-    font-weight: bold;
+   
 }
 
 .container {
@@ -87,6 +87,10 @@ span {
     color: rgb(221, 1, 1);
 }
 
-@media screen {
+@media only screen and (max-width: 400px){
+    *{
+        background-color: black;
+        font-weight: normal;
+    }
     
 }
